@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C074B1F12D08038E00EA6592 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C074B1F02D08038E00EA6592 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C076806B2D078556004633AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C074B1F02D08038E00EA6592 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C07680672D078556004633AC /* HostelWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostelWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09182D72D0010EA00FCF526 /* HostelWorldTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostelWorldTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09183152D0015E700FCF526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +81,7 @@
 		C09182CE2D0010EA00FCF526 = {
 			isa = PBXGroup;
 			children = (
+				C074B1F02D08038E00EA6592 /* README.md */,
 				C09183152D0015E700FCF526 /* Info.plist */,
 				C09182D92D0010EA00FCF526 /* HostelWorldTest */,
 				C07680682D078556004633AC /* HostelWorldTests */,
@@ -221,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C074B1F12D08038E00EA6592 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
